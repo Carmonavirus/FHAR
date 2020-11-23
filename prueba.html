@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="prueba.css">
+<script src="java.js"></script>
+<audio id="sound">
+  <source src="clickazo.mp3" type="audio/mpeg">
+</audio>
+<!-- <em> …</em> Cursiva -->
+<!-- strong negrita -->
+</head>
+<body>
+
+<div id="header">
+  <h1 class="titulo">COMANDOS</h1>
+</div>
+
+<div class="row container ">
+  <div class="col-3 col-s-12 menu interior black "> 
+    
+      
+  <ul>
+   <li id="copy" onclick="comando(id)" class="col-s-4 topleft borderbottom">COPY</li>
+    <li id="type" onclick="comando(id)" class="col-s-4 borderbottom-top">TYPE</li>
+    <li id="md" onclick="comando( id)" class="col-s-4 borderbottom-top">MD</li>
+    <li id="dir" onclick="comando(id)"class="col-s-4 borderbottom-top">DIR</li>
+    <li id="move" onclick="comando(id)"class="col-s-4 borderbottom-top">MOVE</li>
+    <li id="ren" onclick="comando(id)"class="col-s-4 bottomleft borderbottom-bottom">REN</li>
+    
+  </ul>
+
+  
+      
+      
+    
+  </div>
+
+  
+
+  <div class="col-6 col-s-12 interior black containersmall ">
+    <div style="padding-bottom: 13px;border: 3px solid turquoise;border-radius: 20px;">
+      <h1 id="obj2">
+        
+        <div  class="definicion">¿QUÉ HACE?</div>
+        <br>
+        <div class="sintaxis">SINTAXIS</div>
+        <br>
+        <div class="parametros">PARÁMETROS</div>
+        <br><br>
+        <div class="observaciones">OBSERVACIONES</div>
+
+      </h1>
+    </div>
+    <div id="inicio" onclick="comando(id)" class="inicio">INICIO</div>
+    
+  </div>
+
+  <div class="col-3 col-s-12 interior black">
+    <div class="menu ">
+        <ul>
+            <li id="ver" onclick="comando(id)" class="col-s-4 topright borderbottom">VER</li>
+            <li id="date" onclick="comando(id)" class="col-s-4 borderbottom-top">DATE</li>
+            <li id="time" onclick="comando(id)" class="col-s-4 borderbottom-top">TIME</li>
+            <li id="sort" onclick="comando(id)" class="col-s-4 borderbottom-top">SORT</li>
+            <li id="del" onclick="comando(id)" class="col-s-4 borderbottom-top">DEL</li>
+            <li id="cls" onclick="comando(id)" class="col-s-4 bottomright borderbottom-bottom">CLS</li>
+          </ul>
+          
+          
+
+    </div>
+    
+  </div>
+
+ 
+</div>
+
+
+
+</body>
+
+</html>

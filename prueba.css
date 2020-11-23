@@ -1,0 +1,289 @@
+ h1{
+      text-align:center;
+    }
+
+  
+    
+    #obj {
+      text-align:center;
+      color: indianred;
+      font-weight: bold;
+      font-size: 12px;
+    }
+    
+    #obj2 {
+      text-align:center;
+      color: rgb(247, 99, 0);
+      font-weight: bold;
+    }
+
+    /* .container li.active{
+      background-color: teal;
+
+    } */
+
+    
+    .inicio {
+
+      width: 100%;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      border: 10px solid black;
+      margin-top: 20px;
+      padding-top: 20px;
+      text-align: center;
+      height: 15%;
+      background-color: rgb(204, 204, 8);
+      
+      
+    }
+
+   
+    .inicio:hover {
+
+      background-color: purple;
+      color: black;
+      cursor: pointer;
+      font-size: 150%;
+      text-align: center;
+      padding-bottom: 20px;
+      transition: 0.35s;
+      
+
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+    }
+    
+    html {
+      font-family: "Lucida Sans", sans-serif;
+    }
+    
+    #header {
+      background-color: rgb(19, 6, 77);
+      color: purple;
+      height: 15%;
+      padding-top: 10px;
+      border-top-left-radius: 75px;
+      border-top-right-radius: 75px; 
+    }
+
+    .titulo {
+      
+      color: purple;
+      height: 15%;
+      padding-top: 10px;
+     
+    }
+  
+    
+    .black {
+
+       background-color: rgb(19, 6, 77);
+    }
+  
+
+    
+    
+    
+    
+    
+    .menu li:hover {
+      background-color: purple;
+      color: black;
+      cursor: pointer;
+      font-size: 150%;
+      text-align: center;
+      transition: 0.35s;
+    }
+
+   
+    
+    html, body {
+
+      margin: 0px;
+      height: 100%;
+
+    }
+    
+    
+    .definicion {
+
+      color: orange;
+    }
+
+    .informacion {
+      font-size: medium;
+      
+    }
+
+    .sintaxis {
+
+      color: rgb(79, 82, 78);
+      
+    }
+    
+    .parametros {
+      color: rgb(17, 153, 142);
+      display: inline;
+      
+    }
+
+    .observaciones {
+
+      color: rgb(233, 61, 61);
+    }
+
+    @media only screen and (min-width:600px) {
+      
+      
+      .col-3 {width: 15%;}
+      .col-s-4 {width: 100%;}
+      .col-6 {width: 70%;}
+      .col-12 {width: 100%;}
+
+
+      .menu li {
+      
+        background-color: rgb(204, 204, 8);
+ 
+
+        color: black;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        text-align: center;
+        
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+      }
+      body {
+        background-color: purple;
+        border-top: 5px solid purple;
+        border-right: 2px solid purple;
+        border-left: 2px solid purple;
+      
+      }
+
+      .container {
+
+        height: 85%;
+      }
+
+      .interior {
+        height: 100%;
+      }
+
+      .topleft{
+
+        padding-top: 30px;
+        border-top-left-radius: 40px;
+        
+      }
+    
+      .bottomleft {
+
+        padding-bottom: 30px;
+        border-bottom-right-radius: 40px;
+        
+      }
+
+      .topright {
+
+        padding-top: 30px;
+        border-top-right-radius: 40px;
+
+      }
+
+      .bottomright {
+
+        padding-bottom: 30px;
+        border-bottom-left-radius: 40px;
+
+      }
+      
+      .borderbottom {
+        border-bottom: none;
+        border-right: 10px solid black;
+        border-left: 10px solid black;
+        border-top: 10px solid black;
+      }
+
+     
+
+      .borderbottom-top {
+
+        border-bottom: none;
+        border-top: none;
+        border-right: 10px solid black;
+        border-left: 10px solid black;
+      }
+
+      .borderbottom-bottom {
+
+        border-right: 10px solid black;
+        border-left: 10px solid black;
+        border-bottom: 10px solid black;
+        border-top: none;
+      }
+
+      
+   
+    
+
+
+    @media only screen and (max-width:599px) {
+
+      .header {
+        display:none;
+      }
+
+      .containersmall {
+
+        width: 100%;
+        display: block;
+        background-color: tomato;
+      }
+
+      body {
+        width: 100%;
+      }
+
+      .interior {
+        display: block;
+        width: 100%;
+      }
+      h1 {
+        display: none;
+      }
+      .menu li{
+        font-size:10px;
+        padding: 10px;
+        width:48%;
+     }  
+         .menu li:hover {
+         font-size: 10px;
+       
+     }
+     .obj2{display:none;}
+        #texto{font-size:15px;}
+        #desc{font-size:12px;}
+    
+      .col-s-12 {width: 100%;}
+        
+    
+    }
